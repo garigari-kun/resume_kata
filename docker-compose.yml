@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  resume:
+    build: ./
+    volumes:
+      - ./:/usr/src
+    working_dir: /usr/src
+    command: md2pdf --css docs/main.css docs/README.md output.pdf
