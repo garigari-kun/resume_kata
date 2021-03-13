@@ -1,3 +1,106 @@
 body {
     font-family: TakaoPGothic !important
 }
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+.footnote { font-size: 0.8em; }
+
+@page {
+  margin: 1.5cm, 5cm, 1.5cm, 1.5cm;
+  border: 0pt solid white;
+}
+
+body
+{
+  font-size: 12px;
+  line-height: 120%;
+}
+
+h1, h2, h3, h4, h5, 
+h6, pre, hr {
+    margin: 1em, 0, 0, 0;
+}
+
+p {
+  margin: 0, 0, 1em, 0;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  /*font-size: 10px;*/
+  color: #333333;
+}
+
+h1 {
+  /*font-size: 26px;*/
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  /* color: #446CB3; */
+  color: #FFC107;
+}
+
+h2 {
+  font-weight: bold;
+  /*font-size: 14px;*/
+}
+
+a {
+  text-decoration: none;
+  color: #D35400;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+.page-break
+{
+  page-break-before: always;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  /* width: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px -6px #00000073;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+table  th {
+  width: 20%;
+  padding: 10px 0;
+  font-size: 14px;
+  padding: 15px;
+  background-color: #FFC107;
+  color:#fff;
+}
+
+table tr{
+  text-align: center;
+  width: 20%;
+  padding: 20px 0;
+  background-color: #fff;
+  color:#3a3a3a;
+}
