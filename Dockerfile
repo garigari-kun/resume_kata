@@ -19,5 +19,3 @@ RUN apt-get -y update && \
     apt-get -y clean && \
     locale-gen ja_JP.UTF-8 && \
     pip3 install md2pdf
-
-
